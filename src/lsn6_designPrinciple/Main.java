@@ -1,4 +1,4 @@
-package lsn6_designPrinciple.castle;
+package lsn6_designPrinciple;
 
 public class Main {
     public static void main(String[] args) {

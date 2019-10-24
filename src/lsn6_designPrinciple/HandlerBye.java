@@ -1,4 +1,4 @@
-package lsn6_designPrinciple.castle;
+package lsn6_designPrinciple;
 
 public class HandlerBye extends Handler {
     @Override
