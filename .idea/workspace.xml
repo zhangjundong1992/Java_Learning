@@ -46,13 +46,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyConfig">
-    <configuration name="Coin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lsn3_container.Coin" />
+  <component name="RunManager" selected="Application.CellMachine">
+    <configuration name="CellMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lsn7_abstraction.cellmachine.CellMachine" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lsn3_container.*" />
+          <option name="PATTERN" value="lsn7_abstraction.cellmachine.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,19 +127,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.MyConfig" />
-      <item itemvalue="Application.Coin" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.MyObject" />
       <item itemvalue="Application.Game" />
+      <item itemvalue="Application.CellMachine" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CellMachine" />
         <item itemvalue="Application.Game" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.MyObject" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Coin" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +177,9 @@
       <workItem from="1571301980710" duration="2980000" />
       <workItem from="1571555810008" duration="4111000" />
       <workItem from="1571893552773" duration="9412000" />
+      <workItem from="1572003413675" duration="1820000" />
+      <workItem from="1572049879883" duration="5515000" />
+      <workItem from="1572057334960" duration="20000" />
     </task>
     <servers />
   </component>
@@ -188,7 +191,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
