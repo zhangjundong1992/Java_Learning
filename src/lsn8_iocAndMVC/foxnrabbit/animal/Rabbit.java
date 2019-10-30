@@ -1,13 +1,12 @@
-package lsn7_abstraction.foxnrabbit.animal;
+package lsn8_iocAndMVC.foxnrabbit.animal;
 
-import java.awt.Color;
-import java.awt.Graphics;
+import java.awt.*;
 
 public class Rabbit extends Animal {
 	public Rabbit() {
 		super(10,2);
 	}
-	
+
 	@Override
 	public void draw(Graphics g, int x, int y, int size) {
 		int alpha = (int)((1-getAgePercent())*255);

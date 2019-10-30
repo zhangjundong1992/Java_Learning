@@ -1,21 +1,24 @@
-package foxnrabbit;
+package lsn8_iocAndMVC.foxnrabbit.foxnrabbit;
 
-import lsn7_abstraction.foxnrabbit.animal.Animal;
-import lsn7_abstraction.foxnrabbit.animal.Fox;
-import lsn7_abstraction.foxnrabbit.animal.Rabbit;
-import lsn7_abstraction.foxnrabbit.cell.ICell;
-import lsn7_abstraction.foxnrabbit.field.Field;
-import lsn7_abstraction.foxnrabbit.field.Location;
-import lsn7_abstraction.foxnrabbit.field.View;
+import lsn8_iocAndMVC.foxnrabbit.animal.Animal;
+import lsn8_iocAndMVC.foxnrabbit.animal.Fox;
+import lsn8_iocAndMVC.foxnrabbit.animal.Rabbit;
+import lsn8_iocAndMVC.foxnrabbit.cell.ICell;
+import lsn8_iocAndMVC.foxnrabbit.field.Field;
+import lsn8_iocAndMVC.foxnrabbit.field.Location;
+import lsn8_iocAndMVC.foxnrabbit.field.View;
 
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.ArrayList;
-
-import javax.swing.JFrame;
 
 
 public class FoxAndRabbit {
 	private Field theField;
 	private View theView;
+	private JFrame frame;
 	
 	private FoxAndRabbit(int size) {
 		theField = new Field(size, size);
@@ -30,11 +33,21 @@ public class FoxAndRabbit {
 			}
 		}
 		theView = new View(theField);
-		JFrame frame = new JFrame();
+		frame = new JFrame();
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setResizable(false);
 		frame.setTitle("Cells");
-		frame.add(theView);
+		frame.add(theView,BorderLayout.CENTER);
+		JButton btnStep=new JButton("单步");
+		frame.add(btnStep,BorderLayout.SOUTH);
+		btnStep.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				step();
+				frame.repaint();
+			}
+		});
+
 		frame.pack();
 		frame.setVisible(true);
 	}
@@ -69,7 +82,7 @@ public class FoxAndRabbit {
 						ICell[] neighbour = theField.getNeighbour(row, col);
 						ArrayList<Animal> listRabbit = new ArrayList<Animal>();
 						for ( ICell an : neighbour ) {
-							if ( an instanceof Rabbit ) {
+							if ( an instanceof Rabbit) {
 								listRabbit.add((Rabbit)an);
 							}
 						}
@@ -94,7 +107,7 @@ public class FoxAndRabbit {
 	
 	public static void main(String[] args) {
 		FoxAndRabbit fnr = new FoxAndRabbit(50);
-		fnr.start(100);
+//		fnr.start(100);
 	}
 
 }

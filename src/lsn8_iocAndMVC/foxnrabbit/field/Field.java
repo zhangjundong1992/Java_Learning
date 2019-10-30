@@ -1,8 +1,8 @@
-package lsn7_abstraction.foxnrabbit.field;
+package lsn8_iocAndMVC.foxnrabbit.field;
+
+import lsn8_iocAndMVC.foxnrabbit.cell.ICell;
 
 import java.util.ArrayList;
-
-import lsn7_abstraction.foxnrabbit.cell.ICell;
 
 public class Field {
 	private static final Location[] adjacent = {
@@ -13,25 +13,25 @@ public class Field {
 	private int width;
 	private int height;
 	private ICell[][] field;
-	
+
 	public Field(int width, int height) {
 		this.width = width;
 		this.height = height;
 		field = new ICell[height][width];
 	}
-	
+
 	public int getWidth() { return width; }
 	public int getHeight() { return height; }
-	
+
 	public void place(int row, int col, ICell o) {
 		ICell ret = field[row][col];
 		field[row][col] = o;
 	}
-	
+
 	public ICell get(int row, int col) {
 		return field[row][col];
 	}
-	
+
 	public ICell[] getNeighbour(int row, int col) {
 		ArrayList<ICell> list = new ArrayList<ICell>();
 		for ( int i=-1; i<2; i++ ) {
@@ -45,7 +45,7 @@ public class Field {
 		}
 		return list.toArray(new ICell[0]);
 	}
-	
+
 	public Location[] getFreeNeighbour(int row, int col) {
 		ArrayList<Location> list = new ArrayList<Location>();
 		for ( Location loc : adjacent ) {
@@ -57,7 +57,7 @@ public class Field {
 		}
 		return list.toArray(new Location[0]);
 	}
-	
+
 	public void placeRandomAdj(int row, int col, ICell cell) {
 		boolean ret = false;
 		Location[] freeAdj = getFreeNeighbour(row, col);

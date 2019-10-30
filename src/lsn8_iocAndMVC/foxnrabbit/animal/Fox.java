@@ -1,14 +1,13 @@
-package lsn7_abstraction.foxnrabbit.animal;
+package lsn8_iocAndMVC.foxnrabbit.animal;
 
-import java.awt.Color;
-import java.awt.Graphics;
+import java.awt.*;
 import java.util.ArrayList;
 
 public class Fox extends Animal {
 	public Fox() {
 		super(20,4);
 	}
-	
+
 	@Override
 	public void draw(Graphics g, int x, int y, int size) {
 		int alpha = (int)((1-getAgePercent())*255);
@@ -24,7 +23,7 @@ public class Fox extends Animal {
 		}
 		return ret;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "Fox:"+super.toString();
