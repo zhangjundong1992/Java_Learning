@@ -23,12 +23,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lsn8_iocAndMVC" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -186,6 +186,9 @@
       <workItem from="1572057334960" duration="20000" />
       <workItem from="1572420701857" duration="2752000" />
       <workItem from="1572434701208" duration="5436000" />
+      <workItem from="1572660870960" duration="55000" />
+      <workItem from="1572695507237" duration="96000" />
+      <workItem from="1572864571490" duration="20000" />
     </task>
     <servers />
   </component>
