@@ -24,8 +24,5 @@ public class M1_JFrame extends JFrame {
         /*标签*/
         JLabel label = new JLabel("这里是标签");
         container.add(label);
-
     }
-
-
 }
