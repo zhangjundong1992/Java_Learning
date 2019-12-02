@@ -54,46 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.M12_JPasswordField">
-    <configuration name="FoxAndRabbit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lsn8_iocAndMVC.foxnrabbit.foxnrabbit.FoxAndRabbit" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lsn8_iocAndMVC.foxnrabbit.foxnrabbit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KCB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lsn8_iocAndMVC.KCB.KCB" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lsn8_iocAndMVC.KCB.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="M10_JList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lsn9_swing.M10_JList" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lsn9_swing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.M14_FocusListener">
     <configuration name="M11_JTextField" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lsn9_swing.M11_JTextField" />
       <module name="Java" />
@@ -120,6 +81,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="M13_JTextArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lsn9_swing.M13_JTextArea" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lsn9_swing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="M14_FocusListener" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lsn9_swing.M14_FocusListener" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lsn9_swing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="M1_JFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lsn9_swing.M1_JFrame" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lsn9_swing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyConfig" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="lsn6_designPrinciple.castle.Main" />
       <module name="Java" />
@@ -135,19 +135,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.MyConfig" />
-      <item itemvalue="Application.FoxAndRabbit" />
-      <item itemvalue="Application.KCB" />
-      <item itemvalue="Application.M10_JList" />
       <item itemvalue="Application.M11_JTextField" />
       <item itemvalue="Application.M12_JPasswordField" />
+      <item itemvalue="Application.M13_JTextArea" />
+      <item itemvalue="Application.M1_JFrame" />
+      <item itemvalue="Application.M14_FocusListener" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.M12_JPasswordField" />
+        <item itemvalue="Application.M14_FocusListener" />
         <item itemvalue="Application.M11_JTextField" />
-        <item itemvalue="Application.M10_JList" />
-        <item itemvalue="Application.KCB" />
-        <item itemvalue="Application.FoxAndRabbit" />
+        <item itemvalue="Application.M1_JFrame" />
+        <item itemvalue="Application.M13_JTextArea" />
+        <item itemvalue="Application.M12_JPasswordField" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +195,7 @@
       <workItem from="1572864571490" duration="20000" />
       <workItem from="1575201429288" duration="68000" />
       <workItem from="1575213976847" duration="2735000" />
+      <workItem from="1575257252254" duration="3370000" />
     </task>
     <servers />
   </component>
