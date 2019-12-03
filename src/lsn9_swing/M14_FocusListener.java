@@ -2,7 +2,6 @@ package lsn9_swing;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.FocusAdapter;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 
@@ -32,7 +31,7 @@ public class M14_FocusListener extends JFrame {
         setVisible(true);
     }
 
-    class MyFocusListener implements FocusListener {
+    static class MyFocusListener implements FocusListener {
 
         @Override
         public void focusGained(FocusEvent e) {
